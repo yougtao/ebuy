@@ -1,0 +1,11 @@
+com\yongtao\ebuy\manager\mapper\OrderItemMapper.class
+com\yongtao\ebuy\manager\mapper\UserMapper.class
+com\yongtao\ebuy\manager\mapper\ItemDescMapper.class
+com\yongtao\ebuy\manager\mapper\ItemMapper.class
+com\yongtao\ebuy\manager\mapper\ContentMapper.class
+com\yongtao\ebuy\manager\mapper\OrderMapper.class
+com\yongtao\ebuy\manager\mapper\ItemCatMapper.class
+com\yongtao\ebuy\manager\mapper\ContentCategoryMapper.class
+com\yongtao\ebuy\manager\mapper\ItemParamMapper.class
+com\yongtao\ebuy\manager\mapper\ItemParamItemMapper.class
+com\yongtao\ebuy\manager\mapper\OrderShippingMapper.class
