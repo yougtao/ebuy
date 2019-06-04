@@ -2,7 +2,10 @@
   <dictionary name="xiaorui">
     <words>
       <w>alibaba</w>
+      <w>dubbo</w>
       <w>ebuy</w>
+      <w>ebuyparent</w>
+      <w>springmvc</w>
       <w>yongtao</w>
     </words>
   </dictionary>

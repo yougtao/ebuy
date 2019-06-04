@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- controller层 扫描 -->
+    <context:component-scan base-package="com.yongtao.ebuy.manager.controller"/>
+
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 配置资源映射-->
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+
+
+    <mvc:default-servlet-handler/>
+    <mvc:annotation-driven/>
+
+
+    <!-- 引用dubbo服务端 发布的服务-->
+    <dubbo:application name="ebuy-manager"/>
+    <dubbo:registry protocol="zookeeper" address="zookeeper://192.168.22.138:2181"/>
+    <!-- id为自己指定的名字, 相当于配置bean的名字-->
+    <dubbo:reference id="itemService" interface="com.yongtao.ebuy.manager.service.ItemService"/>
+
+</beans>

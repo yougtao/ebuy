@@ -33,10 +33,12 @@
             <groupId>com.github.miemiedev</groupId>
             <artifactId>mybatis-paginator</artifactId>
         </dependency>
+        <!-- page helper 分页插件-->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper</artifactId>
         </dependency>
+
         <!-- mysql-->
         <dependency>
             <groupId>mysql</groupId>
@@ -46,9 +48,21 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
         </dependency>
+
     </dependencies>
 
-
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
 
 
 </project>

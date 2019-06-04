@@ -18,12 +18,11 @@
         <module>ebuy-manager-dao</module>
         <module>ebuy-manager-interface</module>
         <module>ebuy-manager-service</module>
-        <module>ebuy-manager-web</module>
     </modules>
 
-    <!--<build>
+    <build>
         <plugins>
-            &lt;!&ndash; tomcat 插件&ndash;&gt;
+            <!-- tomcat 插件 -->
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
@@ -34,7 +33,7 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>-->
+    </build>
 
 
 </project>

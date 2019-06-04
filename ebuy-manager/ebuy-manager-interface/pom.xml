@@ -13,9 +13,15 @@
     <packaging>jar</packaging>
 
     <dependencies>
+        <!-- pojo and common-->
         <dependency>
             <groupId>com.yongtao</groupId>
             <artifactId>ebuy-manager-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yongtao</groupId>
+            <artifactId>ebuy-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

@@ -13,6 +13,7 @@
     <modules>
         <module>../ebuy-common</module>
         <module>../ebuy-manager</module>
+        <module>../ebuy-manager-web</module>
     </modules>
 
     <properties>
@@ -39,7 +40,7 @@
         <jedis.version>2.7.2</jedis.version>
         <solrj.version>4.10.3</solrj.version>
         <dubbo.version>2.5.3</dubbo.version>
-        <zookeeper.version>2.4.7</zookeeper.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
         <zkclient.version>0.1</zkclient.version>
         <activemq.version>5.11.2</activemq.version>
         <freemarker.version>2.3.23</freemarker.version>
@@ -72,7 +73,7 @@
                 <version>${commons-net.version}</version>
             </dependency>
 
-            <!-- jackson json gongjubao-->
+            <!-- jackson json 工具包-->
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-databind</artifactId>
@@ -84,7 +85,7 @@
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
             </dependency>
-            <!-- renwu diaodu-->
+            <!-- 任务 调度-->
             <dependency>
                 <groupId>org.quartz-scheduler</groupId>
                 <artifactId>quartz</artifactId>
@@ -133,7 +134,7 @@
                 <version>${mysql.version}</version>
             </dependency>
 
-            <!-- lianjiechi-->
+            <!-- 连接池-->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
@@ -228,7 +229,7 @@
                 <version>${zookeeper.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.sgroschupd</groupId>
+                <groupId>com.github.sgroschupf</groupId>
                 <artifactId>zkclient</artifactId>
                 <version>${zkclient.version}</version>
             </dependency>

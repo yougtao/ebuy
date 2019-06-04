@@ -1,0 +1,7 @@
+# ignore target files
+ebuy-manager-web/target
+ebuy-manager/ebuy-manager-pojo/target
+ebuy-manager/ebuy-manager-interface/target
+ebuy-manager/ebuy-manager-dao/target
+ebuy-manager/ebuy-manager-service/target
+ebuy-common/target
