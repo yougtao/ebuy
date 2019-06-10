@@ -203,7 +203,7 @@
                 <artifactId>commons-fileupload</artifactId>
                 <version>${commons-fileupload.version}</version>
             </dependency>
-            <!-- Reids client-->
+            <!-- Redis client-->
             <dependency>
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
@@ -250,7 +250,7 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
-            <!-- ziyuan kaobei wenjian-->
+            <!-- 资源拷贝文件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -260,7 +260,7 @@
                 </configuration>
             </plugin>
 
-            <!-- java bianyi chajian-->
+            <!-- java 编译插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

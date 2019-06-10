@@ -36,5 +36,6 @@
     <dubbo:registry protocol="zookeeper" address="zookeeper://192.168.22.138:2181"/>
     <!-- id为自己指定的名字, 相当于配置bean的名字-->
     <dubbo:reference id="itemService" interface="com.yongtao.ebuy.manager.service.ItemService"/>
+    <dubbo:reference id="itemCatService" interface="com.yongtao.ebuy.manager.service.ItemCatService"/>
 
 </beans>

@@ -12,3 +12,11 @@ url: /item/{itemId}
         {"id":9527, "title":"九五二期","cid":58,....}
     ]
 }
+
+
+item/cat/list
+
+controller: TreeNode queryCat  RequestParam(name="id") integer parentId
+
+service ItemCatService
+    list<TreeNode> queryCat(int )
