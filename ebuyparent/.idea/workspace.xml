@@ -5,17 +5,19 @@
       <artifact name="ebuy-manager-web:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../ebuy-manager-web/src/test/java/com/yongtao/ebuy/test/FastDFSClientTest.java" line="13" />
+    <bookmark url="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java" line="25" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4aa5738e-28ff-43ee-9cec-20fed9673a7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/pojo/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemCatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemCatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemCatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebuy-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebuy-common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ebuy-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebuy-manager-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/xiaorui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/xiaorui.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -62,30 +64,34 @@
     <select />
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemCatServiceImpl.java">
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="434">
-                    <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+                  <state relative-caret-position="840">
+                    <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
                     <folding>
                       <element signature="imports" expanded="true" />
+                      <element signature="e#847#848#0" expanded="true" />
+                      <element signature="e#885#886#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
               </entry>
             </file>
-            <file pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/../README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                  <state split_layout="FIRST">
-                    <first_editor relative-caret-position="567">
-                      <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-                    </first_editor>
-                    <second_editor />
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemServiceImpl.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="669">
+                    <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="method#queryById#0;class#ItemServiceImpl#0" />
+                      <element signature="method#queryByPage#0;class#ItemServiceImpl#0" />
+                    </folding>
                   </state>
                 </provider>
               </entry>
@@ -98,38 +104,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/springmvc.xml">
+        <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="54">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/pojo/BuyResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+            <state relative-caret-position="54">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
               <folding>
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="53" column="102" selection-start-line="53" selection-start-column="102" selection-end-line="53" selection-end-column="102" />
-              <folding>
-                <element signature="n#bean#0;n#beans#0;n#!!top" />
-                <element signature="n#tx:advice#0;n#beans#0;n#!!top" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,7 +174,11 @@
       <find>dubbp</find>
       <find>appli</find>
       <find>dubbo</find>
+      <find>fast</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -178,13 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/ContentCategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/ContentMapper.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/ItemCatMapper.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/ItemDescMapper.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/ItemParamItemMapper.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/ItemParamMapper.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/OrderItemMapper.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/OrderShippingMapper.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/mapper/UserMapper.xml" />
@@ -194,7 +195,6 @@
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-dao/src/main/resources/mapper/ContentCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/target/classes/mybatis.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-dao/src/main/resources/mapper/ItemMapper.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-common/pom.xml" />
         <option value="$PROJECT_DIR$/../ebuy-common/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/pom.xml" />
@@ -206,7 +206,6 @@
         <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/PageControler.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemService.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-dao/src/main/java/com/yongtao/ebuy/manager/mapper/ItemMapper.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-dao/pom.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/mybatis.xml" />
@@ -215,20 +214,29 @@
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/test/java/SpringTest.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/test/java/PageHelperTest.java" />
         <option value="$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/pojo/DatagridResult.java" />
-        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/pom.xml" />
         <option value="$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/pojo/TreeNode.java" />
         <option value="$PROJECT_DIR$/../README.md" />
-        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemCatService.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemCatService.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemCatServiceImpl.java" />
         <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/../ebuy-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/resource.properties" />
+        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../ebuy-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../ebuy-common/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/fdfs/FastDFSClient.java" />
+        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/PictureController.java" />
+        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/test/java/com/yongtao/ebuy/test/FastDFSClientTest.java" />
+        <option value="$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/pojo/BuyResult.java" />
+        <option value="$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -261,16 +269,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ebuy-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ebuy-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ebuy-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ebuy-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ebuy-manager-dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -293,8 +306,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="349" />
-    <option name="width" value="2054" />
+    <option name="x" value="212" />
+    <option name="width" value="2092" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -338,7 +351,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebuy-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebuy-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
@@ -416,80 +445,7 @@
             </path>
             <path>
               <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="ebuy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebuy-manager-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebuyparent" type="b2602c69:ProjectViewProjectNode" />
@@ -510,7 +466,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ebuyparent" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/Plug/xsds/dubbo.xsd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ebuy-common/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -520,7 +476,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2437043" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -531,11 +487,11 @@
       <recent name="E:\Study Home\Java Study\com.ebuy\ebuy-manager\ebuy-manager-web\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Study Home\Java Study\com.ebuy\ebuy-common\src\main\resources" />
       <recent name="E:\Study Home\Java Study\com.ebuy\ebuy-manager-web\src\main\webapp\WEB-INF\views" />
       <recent name="E:\Study Home\Java Study\com.ebuy\ebuy-manager-web\src\main\webapp" />
       <recent name="E:\Study Home\Java Study\com.ebuy\ebuy-manager-web\src\main\resources" />
       <recent name="E:\Study Home\Java Study\com.ebuy\ebuy-manager\ebuy-manager-dao\src\main\resources" />
-      <recent name="E:\Study Home\Java Study\com.ebuy\ebuy-manager\ebuy-manager-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -550,7 +506,87 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.ebuy-web">
+  <component name="RunManager" selected="Maven.ebuy-manager">
+    <configuration name="FastDFSClientTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebuy-manager-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yongtao.ebuy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yongtao.ebuy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yongtao.ebuy.test.FastDFSClientTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastDFSClientTest.testDownload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebuy-manager-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yongtao.ebuy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yongtao.ebuy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yongtao.ebuy.test.FastDFSClientTest" />
+      <option name="METHOD_NAME" value="testDownload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastDFSClientTest.testFastDFSClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebuy-manager-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yongtao.ebuy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yongtao.ebuy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yongtao.ebuy.test.FastDFSClientTest" />
+      <option name="METHOD_NAME" value="testFastDFSClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastDFSClientTest.testGetFileInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebuy-manager-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yongtao.ebuy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yongtao.ebuy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yongtao.ebuy.test.FastDFSClientTest" />
+      <option name="METHOD_NAME" value="testGetFileInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastDFSClientTest.testGetFileMate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ebuy-manager-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yongtao.ebuy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yongtao.ebuy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yongtao.ebuy.test.FastDFSClientTest" />
+      <option name="METHOD_NAME" value="testGetFileMate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -764,10 +800,24 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.FastDFSClientTest.testDownload" />
+      <item itemvalue="JUnit.FastDFSClientTest.testGetFileInfo" />
+      <item itemvalue="JUnit.FastDFSClientTest.testGetFileMate" />
+      <item itemvalue="JUnit.FastDFSClientTest.testDelete" />
+      <item itemvalue="JUnit.FastDFSClientTest.testFastDFSClient" />
       <item itemvalue="Maven.ebuy-web" />
       <item itemvalue="Maven.ebuy-manager" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.17" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FastDFSClientTest.testDownload" />
+        <item itemvalue="JUnit.FastDFSClientTest.testFastDFSClient" />
+        <item itemvalue="JUnit.FastDFSClientTest.testDelete" />
+        <item itemvalue="JUnit.FastDFSClientTest.testGetFileMate" />
+        <item itemvalue="JUnit.FastDFSClientTest.testGetFileInfo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -783,66 +833,67 @@
       <workItem from="1559618887617" duration="11989000" />
       <workItem from="1559651778179" duration="6613000" />
       <workItem from="1559788101288" duration="2421000" />
-      <workItem from="1560088764883" duration="599000" />
+      <workItem from="1560088764883" duration="1795000" />
+      <workItem from="1560488395573" duration="19123000" />
+      <workItem from="1560659369940" duration="11929000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.03 at 23h 42m 04s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testDelete - 2019.06.15 at 12h 33m 11s.xml">
+      <configuration name="FastDFSClientTest.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper_(1) - 2019.06.04 at 00h 17m 00s.xml">
-      <configuration name="PageHelperTest.testPageHelper (1)" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testDelete - 2019.06.15 at 12h 33m 51s.xml">
+      <configuration name="FastDFSClientTest.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper_(1) - 2019.06.04 at 00h 18m 48s.xml">
-      <configuration name="PageHelperTest.testPageHelper (1)" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testDelete - 2019.06.15 at 12h 34m 39s.xml">
+      <configuration name="FastDFSClientTest.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.04 at 00h 21m 40s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testDelete - 2019.06.15 at 12h 35m 02s.xml">
+      <configuration name="FastDFSClientTest.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.04 at 00h 22m 59s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testFastDFSClient - 2019.06.15 at 15h 30m 59s.xml">
+      <configuration name="FastDFSClientTest.testFastDFSClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.04 at 00h 23m 38s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testFastDFSClient - 2019.06.15 at 15h 31m 08s.xml">
+      <configuration name="FastDFSClientTest.testFastDFSClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.04 at 14h 28m 43s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testFastDFSClient - 2019.06.15 at 15h 31m 39s.xml">
+      <configuration name="FastDFSClientTest.testFastDFSClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.04 at 14h 30m 13s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testFastDFSClient - 2019.06.15 at 15h 35m 08s.xml">
+      <configuration name="FastDFSClientTest.testFastDFSClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.04 at 14h 31m 58s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testFastDFSClient - 2019.06.15 at 15h 35m 13s.xml">
+      <configuration name="FastDFSClientTest.testFastDFSClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PageHelperTest_testPageHelper - 2019.06.04 at 14h 32m 39s.xml">
-      <configuration name="PageHelperTest.testPageHelper" configurationId="JUnit" />
+    <history-entry file="FastDFSClientTest_testDownload - 2019.06.15 at 15h 53m 03s.xml">
+      <configuration name="FastDFSClientTest.testDownload" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89088000" />
+    <option name="totallyTimeSpent" value="121336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="349" y="0" width="2054" height="1407" extended-state="1" />
-    <editor active="true" />
+    <frame x="212" y="0" width="2092" height="1407" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.22374877" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.21965317" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.31225604" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.31779984" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32977098" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32925898" />
       <window_info anchor="bottom" id="Spring" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32943013" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.32952815" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4644767" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5002452" side_tool="true" weight="0.2841864" />
       <window_info anchor="bottom" id="Java Enterprise" order="6" weight="0.26564884" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.26508784" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.36669213" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.40565318" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.4997548" weight="0.4446142" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32925898" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -850,11 +901,12 @@
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.2909232" />
       <window_info anchor="right" id="Database" order="0" weight="0.17220683" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Maven" order="2" visible="true" weight="0.20314033" />
+      <window_info anchor="right" id="Maven" order="2" visible="true" weight="0.18737957" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,35 +963,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/applicationContext-dao.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/springmvc.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/resources/applicationContext-service.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/db.properties" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/applicationContext-dao.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/applicationContext-service.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/springmvc.xml" />
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-dao/src/main/resources/mapper/ItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-pojo/src/main/java/com/yongtao/ebuy/manager/pojo/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/webapp/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1027,16 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/test/java/SpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1091,13 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
@@ -1139,42 +1145,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#queryById#0;class#ItemServiceImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/webapp/WEB-INF/views/item-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemCatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,6 +1181,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="567">
+            <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1214,62 +1198,237 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3712">
-          <caret line="227" column="50" selection-start-line="227" selection-start-column="50" selection-end-line="227" selection-end-column="50" />
+        <state relative-caret-position="564">
+          <caret line="200" column="12" lean-forward="true" selection-start-line="200" selection-start-column="12" selection-end-line="205" selection-end-column="25" />
+          <folding>
+            <element signature="n#modules#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#configuration#0;n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-common/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="682">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/applicationContext.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="53" column="102" selection-start-line="53" selection-start-column="102" selection-end-line="53" selection-end-column="102" />
-          <folding>
-            <element signature="n#bean#0;n#beans#0;n#!!top" />
-            <element signature="n#tx:advice#0;n#beans#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="470">
+          <caret line="2261" column="40" selection-start-line="2261" selection-start-column="40" selection-end-line="2261" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/fdfs/FastDFSClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-          <folding>
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="335">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="567">
-            <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/../ebuy-common/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/test/java/com/yongtao/ebuy/test/FastDFSClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testUpload#0;class#FastDFSClientTest#0" />
+            <element signature="method#testDownload#0;class#FastDFSClientTest#0" />
+            <element signature="method#testGetFileInfo#0;class#FastDFSClientTest#0" />
+            <element signature="method#testGetFileMate#0;class#FastDFSClientTest#0" />
+            <element signature="method#testDelete#0;class#FastDFSClientTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+          <folding>
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="895" selection-start-line="895" selection-end-line="895" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="979" selection-start-line="979" selection-end-line="979" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/PictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemCatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="64" column="69" lean-forward="true" selection-start-line="64" selection-start-column="69" selection-end-line="64" selection-end-column="69" />
+          <folding>
+            <element signature="n#bean#0;n#beans#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-interface/src/main/java/com/yongtao/ebuy/manager/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager-web/src/main/java/com/yongtao/ebuy/manager/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service/src/main/java/com/yongtao/ebuy/manager/service/ipml/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#queryById#0;class#ItemServiceImpl#0" />
+            <element signature="method#queryByPage#0;class#ItemServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ebuy-common/src/main/java/com/yongtao/ebuy/util/pojo/BuyResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

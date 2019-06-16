@@ -46,6 +46,12 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
+        
+        <!-- FastDFS client-->
+        <dependency>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+        </dependency>
 
         <!-- quartz任务调度框架-->
         <dependency>
