@@ -7,16 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ebuy-manager-interface" />
+        <module name="ebuy-content-service" />
         <module name="ebuy-manager-pojo" />
         <module name="ebuy-manager-dao" />
-        <module name="ebuy-manager-service" />
         <module name="ebuy-common" />
+        <module name="ebuy-web" />
+        <module name="ebuy-content-interface" />
+        <module name="ebuy-manager-service" />
         <module name="ebuy-manager-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ebuy-manager" target="1.7" />
       <module name="ebuycommon" target="1.5" />
+      <module name="ebuycontentinterface" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

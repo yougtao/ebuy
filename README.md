@@ -18,5 +18,48 @@ item/cat/list
 
 controller: TreeNode queryCat  RequestParam(name="id") integer parentId
 
-service ItemCatService
-    list<TreeNode> queryCat(int )
+
+## 项目结构
+* ebuy-parent (pom工程)
+	* ebuy-common 
+	* ebuy-manager	(pom工程)
+		* ebuy-manager-pojo
+		* ebuy-manager-dao
+		* ebuy-manager-interface
+		* ebuy-manager-service (war包,方便部署)
+	* ebuy-manager-web
+	* ebuy-web	(web工程)
+	* ebuy-content (pom聚合工程)
+		* ebuy-content-interface
+		* ebuy-content-service (war包,方便部署)
+	
+	
+	
+### 各个服务端口
+* mysql服务器 jdbc:mysql://192.168.22.137/ebuy
+	
+* dubbo 20196
+* zookeeper服务器 zookeeper://192.168.22.138:2181
+
+* FastDFS
+	* tracker.server 192.168.22.138:22122
+	* http.tracker_http_port 192.168.22.138:8888
+	
+
+* ebuy-manager localhost:8083
+	
+* ebuy-manager-web locahost:8082
+	
+* ebuy-content localhost:8081
+ 
+* ebuy-web localhost:8080
+
+
+
+
+
+
+
+
+
+
