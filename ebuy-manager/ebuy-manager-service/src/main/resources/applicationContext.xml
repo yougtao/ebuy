@@ -47,11 +47,14 @@
     <dubbo:application name="ebuy-manager"/>
     <dubbo:registry protocol="zookeeper" address="zookeeper://192.168.22.138:2181"/>
     <dubbo:protocol name="dubbo" port="20196"/>
+
     <!-- 申明需要暴露的接口
             interface: 需要提供服务的接口
             ref: 实际提供服务的实现类的对象在spring中的名称-->
     <dubbo:service interface="com.yongtao.ebuy.manager.service.ItemService" ref="itemServiceImpl"/>
     <dubbo:service interface="com.yongtao.ebuy.manager.service.ItemCatService" ref="itemCatServiceImpl"/>
+    <dubbo:service interface="com.yongtao.ebuy.manager.service.ContentCategoryService" ref="contentCategoryServiceImpl"/>
+    <dubbo:service interface="com.yongtao.ebuy.manager.service.ContentService" ref="contentServiceImpl"/>
 
 
     <!--   事务管理   -->

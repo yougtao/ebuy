@@ -11,7 +11,7 @@ import java.util.List;
 
 public class PageHelperTest
 {
-    @Test
+    //@Test
     public void testPageHelper() {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
         ItemMapper itemMapper = context.getBean(ItemMapper.class);

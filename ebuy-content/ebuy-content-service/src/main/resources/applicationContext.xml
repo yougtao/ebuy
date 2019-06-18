@@ -40,7 +40,7 @@
     </bean>
 
     <!-- 配置扫描包-->
-    <context:component-scan base-package="com.yongtao.ebuy.content.service"/>
+    <context:component-scan base-package="com.yongtao.ebuy.content.serviceImpl"/>
 
 
     <!--   发布dubbo服务   -->

@@ -42,8 +42,8 @@ controller: TreeNode queryCat  RequestParam(name="id") integer parentId
 * zookeeper服务器 zookeeper://192.168.22.138:2181
 
 * FastDFS
-	* tracker.server 192.168.22.138:22122
-	* http.tracker_http_port 192.168.22.138:8888
+	* tracker.server 192.168.22.137:22122
+	* http.tracker_http_port 192.168.22.137:8888
 	
 
 * ebuy-manager localhost:8083

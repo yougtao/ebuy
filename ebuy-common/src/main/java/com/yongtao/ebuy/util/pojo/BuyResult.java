@@ -13,6 +13,10 @@ public class BuyResult implements Serializable
         this.status = status;
     }
 
+    public BuyResult(int status, Object data) {
+        this.status = status;
+        this.data = data;
+    }
 
     public static BuyResult ok() {
         return new BuyResult(200);

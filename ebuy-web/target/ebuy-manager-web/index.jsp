@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head>
-    <title>Hello world</title>
+    <title>ebuy商城</title>
 </head>
 <body>
-<h2>Hello World!</h2>
+<h2>welcome to ebuy!</h2>
 </body>
 </html>
