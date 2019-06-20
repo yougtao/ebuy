@@ -45,6 +45,14 @@ controller: TreeNode queryCat  RequestParam(name="id") integer parentId
 	* tracker.server 192.168.22.137:22122
 	* http.tracker_http_port 192.168.22.137:8888
 	
+* redis 集群
+	* redis-server 192.168.22.129:9001
+	* redis-server 192.168.22.129:9002
+	* redis-server 192.168.22.129:9003
+	* redis-server 192.168.22.129:9004
+	* redis-server 192.168.22.129:9005
+	* redis-server 192.168.22.129:9006
+	
 
 * ebuy-manager localhost:8083
 	

@@ -6,6 +6,10 @@
       <w>ebuy</w>
       <w>ebuyparent</w>
       <w>fdfs</w>
+      <w>hdel</w>
+      <w>hget</w>
+      <w>hset</w>
+      <w>jedis</w>
       <w>springmvc</w>
       <w>xiaorui</w>
       <w>yongtao</w>

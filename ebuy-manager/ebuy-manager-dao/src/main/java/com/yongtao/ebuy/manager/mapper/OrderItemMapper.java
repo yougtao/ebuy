@@ -1,9 +1,10 @@
 package com.yongtao.ebuy.manager.mapper;
 
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
 import com.yongtao.ebuy.manager.pojo.OrderItem;
 import com.yongtao.ebuy.manager.pojo.OrderItemExample;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface OrderItemMapper {
     /**

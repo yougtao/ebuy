@@ -4,7 +4,6 @@ package com.yongtao.ebuy.util.fdfs;
 import org.csource.common.MyException;
 import org.csource.fastdfs.*;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class FastDFSClient

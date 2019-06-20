@@ -2,8 +2,9 @@ package com.yongtao.ebuy.manager.mapper;
 
 import com.yongtao.ebuy.manager.pojo.OrderShipping;
 import com.yongtao.ebuy.manager.pojo.OrderShippingExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface OrderShippingMapper {
     /**

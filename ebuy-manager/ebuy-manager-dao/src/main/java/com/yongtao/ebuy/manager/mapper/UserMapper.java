@@ -1,10 +1,10 @@
 package com.yongtao.ebuy.manager.mapper;
 
-import java.util.List;
-
+import com.yongtao.ebuy.manager.pojo.User;
 import com.yongtao.ebuy.manager.pojo.UserExample;
 import org.apache.ibatis.annotations.Param;
-import com.yongtao.ebuy.manager.pojo.User;
+
+import java.util.List;
 
 public interface UserMapper
 {

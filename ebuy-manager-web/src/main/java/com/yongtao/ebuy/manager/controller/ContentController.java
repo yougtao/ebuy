@@ -29,4 +29,21 @@ public class ContentController
     public BuyResult saveContent(Content content) {
         return contentService.saveContent(content);
     }
+
+
+    @ResponseBody
+    @RequestMapping("/rest/content/edit")
+    public BuyResult editContent(Content content){
+        return contentService.editContent(content);
+    }
+
+
+    // 测试
+    @ResponseBody
+    @RequestMapping("/content/query")
+    public BuyResult queryByCategoryId() {
+        BuyResult result = BuyResult.ok();
+        result.setData(contentService.queryByCategoryId(109));
+        return result;
+    }
 }

@@ -3,7 +3,6 @@ import com.github.pagehelper.PageInfo;
 import com.yongtao.ebuy.manager.mapper.ItemMapper;
 import com.yongtao.ebuy.manager.pojo.Item;
 import com.yongtao.ebuy.manager.pojo.ItemExample;
-import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
