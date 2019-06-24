@@ -10,11 +10,14 @@
         <module name="ebuy-content-service" />
         <module name="ebuy-manager-pojo" />
         <module name="ebuy-manager-dao" />
+        <module name="ebuy-content-interface" />
         <module name="ebuy-common" />
         <module name="ebuy-web" />
-        <module name="ebuy-manager-web" />
+        <module name="ebuy-search-service" />
         <module name="ebuy-manager-service" />
-        <module name="ebuy-content-interface" />
+        <module name="ebuy-search-web" />
+        <module name="ebuy-search-interface" />
+        <module name="ebuy-manager-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

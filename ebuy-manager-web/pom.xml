@@ -27,13 +27,17 @@
         <!-- 依赖interface 和 common-->
         <dependency>
             <groupId>com.yongtao</groupId>
+            <artifactId>ebuy-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yongtao</groupId>
             <artifactId>ebuy-manager-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
         <dependency>
             <groupId>com.yongtao</groupId>
-            <artifactId>ebuy-common</artifactId>
+            <artifactId>ebuy-search-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

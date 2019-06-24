@@ -46,5 +46,6 @@
     <dubbo:reference id="itemCatService" interface="com.yongtao.ebuy.manager.service.ItemCatService"/>
     <dubbo:reference id="contentCategoryService" interface="com.yongtao.ebuy.manager.service.ContentCategoryService"/>
     <dubbo:reference id="contentService" interface="com.yongtao.ebuy.manager.service.ContentService"/>
+    <dubbo:reference id="searchService" interface="com.yongtao.ebuy.search.service.SearchService"/>
 
 </beans>

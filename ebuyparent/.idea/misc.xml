@@ -6,6 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/../ebuy-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/../ebuy-manager/ebuy-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../ebuy-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../ebuy-search/ebuy-search-service" />
     <file type="web" url="file://$PROJECT_DIR$/../ebuy-web" />
   </component>
   <component name="MavenProjectsManager">

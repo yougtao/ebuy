@@ -3,6 +3,7 @@ package com.yongtao.ebuy.manager.controller;
 
 import com.yongtao.ebuy.manager.pojo.Item;
 import com.yongtao.ebuy.manager.service.ItemService;
+import com.yongtao.ebuy.search.service.SearchService;
 import com.yongtao.ebuy.util.pojo.BuyResult;
 import com.yongtao.ebuy.util.pojo.DatagridResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,17 @@ public class ItemController
 {
     @Autowired
     private ItemService itemService;
+
+    @Autowired
+    SearchService searchService;
+
+
+    // 索引库
+    @ResponseBody
+    @RequestMapping("/index/item/import")
+    public BuyResult importIndex() {
+        return searchService.importIndex();
+    }
 
 
     @ResponseBody

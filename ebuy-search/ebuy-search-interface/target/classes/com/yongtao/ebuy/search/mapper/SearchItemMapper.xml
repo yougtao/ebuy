@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yongtao.ebuy.search.mapper.SearchItemMapper">
+    <select id="getItemList" resultType="com.yongtao.ebuy.util.pojo.SearchItem">
+        select item.id, item.title, item.sell_point, item.price, cat.name category_name, item.image image
+        from item item
+                 left join item_cat cat on item.cid = cat.id
+    </select>
+</mapper>

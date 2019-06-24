@@ -39,7 +39,8 @@ controller: TreeNode queryCat  RequestParam(name="id") integer parentId
 * mysql服务器 jdbc:mysql://192.168.22.137/ebuy
 	
 * dubbo 20196
-* zookeeper服务器 zookeeper://192.168.22.138:2181
+	* zookeeper服务器 zookeeper://192.168.22.138:2181
+	* dubbo管理 tomcat://192.168.22.138:8080/dubbo
 
 * FastDFS
 	* tracker.server 192.168.22.137:22122
@@ -53,8 +54,12 @@ controller: TreeNode queryCat  RequestParam(name="id") integer parentId
 	* redis-server 192.168.22.129:9005
 	* redis-server 192.168.22.129:9006
 	
+* solr 服务器
+	* solr 192.168.22.139:8080/solr/index.html
+	
 
 * ebuy-manager localhost:8083
+	* dubbo port=20196
 	
 * ebuy-manager-web locahost:8082
 	
@@ -62,7 +67,10 @@ controller: TreeNode queryCat  RequestParam(name="id") integer parentId
  
 * ebuy-web localhost:8080
 
-
+* ebuy-search-service locahost:8085
+	* dubbo port=20197
+	
+*ebuy-search-web locahost:8084
 
 
 
